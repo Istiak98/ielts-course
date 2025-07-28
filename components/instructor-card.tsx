@@ -19,11 +19,11 @@ export default function InstructorCard({
         className='w-16 h-16 rounded-full object-cover flex-shrink-0'
       />
       <div className='flex-1'>
-        <h3 className='text-lg font-semibold text-gray-900'>{name}</h3>
-        <p className='text-lg text-blue-600 mb-2'>{designation}</p>
+        <h3 className='text-xl font-semibold text-gray-900'>{name}</h3>
+        <p className='text-md text-blue-600 mb-2'>{designation}</p>
         {bio && (
           <div
-            className='text-md text-gray-600 line-clamp-3'
+            className='text-sm text-gray-600 line-clamp-3'
             dangerouslySetInnerHTML={{ __html: bio }}
           />
         )}
